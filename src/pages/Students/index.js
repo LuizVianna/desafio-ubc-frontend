@@ -13,8 +13,8 @@ export default function Student(){
                     Bem-Vindo, 
                     <strong>Luiz Claudio Vianna</strong>!
                 </span>
-                <Link className="button" to="student/new">Novo Aluno</Link>
-                <button>
+                <Link className="button" to="/student/new/0">Novo Aluno</Link>
+                <button type="button">
                     <FiXCircle size={35} color="#17202a" />
                 </button>
             </header>
