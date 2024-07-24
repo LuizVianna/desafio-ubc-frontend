@@ -112,7 +112,7 @@ export default function NewStudent(){
                         <input placeholder="Endereço"
                                value={endereco}
                                onChange={u=>setEndereco (u.target.value)}/>
-                        <input placeholder="Data de Nascimento"
+                        <input placeholder="Data de Nascimento (yyyy-MM-dd)"
                                 value={dataNascimento}
                                 onChange={u=>setDataNascimento (u.target.value)}/>
                         <input placeholder="Idade" 
