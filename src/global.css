@@ -49,6 +49,11 @@ button{
     transition: filter 0.3s;
 }
 
+button svg{
+    margin-left: 95%;
+    padding-bottom: 15px;
+}
+
 button:hover{
     filter: brightness(80%);
 }
